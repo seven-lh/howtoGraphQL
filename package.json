@@ -1,0 +1,19 @@
+{
+  "name": "howtographql",
+  "version": "1.0.0",
+  "description": "how to graphQL",
+  "main": "index.js",
+  "author": "lancely stvn.lh@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "graphql": "^0.11.4",
+    "graphql-tools": "^1.2.3",
+    "mongodb": "^2.2.31"
+  }
+}
